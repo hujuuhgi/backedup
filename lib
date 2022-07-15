@@ -3013,7 +3013,7 @@ function library:Load(options)
             local section = utility.create("Square", {
                 Filled = true,
                 Thickness = 0,
-                Size = UDim2.new(1, 0, 0, 14),
+                Size = UDim2.new(5, 0, 0, 14),
                 Parent = column,
                 Theme = "Section Background",
                 ZIndex = 6
